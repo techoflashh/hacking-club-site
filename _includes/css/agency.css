@@ -178,7 +178,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: #{{ site.data.template.color.nav }};
 }
 
 .navbar-default .navbar-brand {
@@ -275,7 +275,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+    background-image: url('{{ site.baseurl }}/img/hacking.png');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -665,6 +665,7 @@ aside.clients img {
 footer {
     padding: 25px 0;
     text-align: center;
+    background-color: #{{ site.data.template.color.footer }};;
 }
 
 footer span.copyright {
@@ -694,8 +695,8 @@ ul.social-buttons li a {
     font-size: 20px;
     line-height: 40px;
     outline: 0;
-    color: #fff;
-    background-color: #222;
+    color: #333333;
+    background-color: #ffffff;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
