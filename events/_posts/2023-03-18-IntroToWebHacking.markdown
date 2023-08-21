@@ -1,9 +1,9 @@
 ---
 layout: default
-title: SQL Injections
+title: Intro to Web Hacking
 resources: #
-image: "img/ClubEvents/2.webp"
-EventDate: 27-05-2023
-EventId: 27052023
+image: "img/ClubEvents/hacking.jpg"
+EventId: 18032023
+EventDate: 18-03-2023
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
 ---

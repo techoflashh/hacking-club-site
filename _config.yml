@@ -54,38 +54,69 @@ github_username:
 # From template
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Muhammed Shamil K
   pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+  position: Coordinator, Challenger
 
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+- name: Hardik Mittal
+  pic: 1
+  position: Coordinator, Challenger
 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+- name: Monish Singhal
+  pic: 1
+  position: Coordinator, Challenger
+
+- name: Anirudh Vempati
+  pic: 1
+  position: Coordinator, Challenger
+
+- name: Kommireddy Bhargav Srinivas
+  pic: 1
+  position: Organizing Team Member
+
+- name: Amey Karan
+  pic: 1
+  position: Challenger
+
+- name: Gaurav Bahera
+  pic: 1
+  position: Challenger
+
+- name: Kotekal Methukula Santhosh
+  pic: 1
+  position: Challenger
+
+- name: Patel Umang Arvindbhai
+  pic: 1
+  position: Challenger
+
+- name: Ankith Raghupathi Pai
+  pic: 1
+  position: Technical Team Member
+
+- name: Himanshu Yadav
+  pic: 1
+  position: Technical Team Member
+
+- name: Srijan Chakraborty
+  pic: 1
+  position: Technical Team Member
+
+- name: Rohit Varma Chiluvuri
+  pic: 1
+  position: Designer
+
+- name: Kriti Gupta
+  pic: 1
+  position: Designer
+
+- name: Joshi Swarang Sarang
+  pic: 1
+  position: Content Writer
+
+- name: Garima Tripathi
+  pic: 1
+  position: Content Writer
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:

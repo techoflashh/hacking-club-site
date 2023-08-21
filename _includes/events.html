@@ -12,22 +12,32 @@
     <div class="row">
       <div class="col-lg-12">
         <ul class="timeline">
-            {% for event in site.categories.events %}
-            <li>
-                <div class="timeline-image">
-                    <img class="img-circle img-responsive" src="{{ event.image }}" alt="">
-                </div>
-                <div class="timeline-panel">
+          {% for event in site.categories.events %}
+          <li>
+            <a
+              href="#EventId{{ event.EventId }}"
+              class="blog-link"
+              data-toggle="modal"
+            >
+              <div class="timeline-image">
+                <img
+                  class="img-circle img-responsive"
+                  src="{{ event.image }}"
+                  alt=""
+                />
+              </div>
+              <div class="timeline-panel">
                 <div class="timeline-heading">
-                    <h4>{{ event.EventDate }}</h4>
-                    <h4 class="subheading">{{ event.title }}</h4>
+                  <h4>{{ event.EventDate }}</h4>
+                  <h4 class="subheading">{{ event.title }}</h4>
                 </div>
-                    <div class="timeline-body">
-                        <p class="text-muted">{{ event.description }}</p>
-                    </div>
+                <div class="timeline-body">
+                  <p class="text-muted">{{ event.description }}</p>
                 </div>
-            </li>
-            {% endfor %}
+              </div>
+            </a>
+          </li>
+          {% endfor %}
           <li class="timeline-inverted">
             <div class="timeline-image">
               <h4>Click to <br />view previous <br />events!</h4>

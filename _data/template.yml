@@ -8,6 +8,7 @@ color:
   text1: eeeeee
   nav: 111111
   footer: 111111
+  modalbg: 111111
 
 # Font Families
 font:
