@@ -1,0 +1,13 @@
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 64ff00
+  secondary: 30aa00   
+  muted: 777
+  bg1: 333333
+  bg2: 444444
+  secondary-dark: 333
+
+# Font Families
+font:
+  primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
+  secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
