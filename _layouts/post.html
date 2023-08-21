@@ -1,19 +1,15 @@
-
-
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
-
-
+    {% include head.html %}
     <body id="page-top" class="index">
-
+    {% include navbar.html %}
     {% include header.html %}
     <main>
         <article>
             <h2>{{ page.title }}</h2>
             <p class="post-date">{{ page.date | date: "%B %-d, %Y" }}</p>
-            {{ content }}
+            {{ page.description }}
         </article>
     </main>
     {% include footer.html %}
