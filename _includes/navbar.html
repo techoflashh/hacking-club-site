@@ -1,4 +1,12 @@
 <!-- Navigation -->
+
+{% if page.name == "index.html" %}
+{% assign index_prefix = "" %}
+{% else %}
+{% assign index_prefix = "index.html" %}
+{% endif %}
+
+
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -9,23 +17,23 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="index.html#page-top"><img class="logo" src="img/logos/logoRemovedBg.png" >{{site.title}}</a>
+                <a class="navbar-brand page-scroll" href="{{ index_prefix }}#page-top"><img class="logo" src="img/logos/logoRemovedBg.png" >{{site.title}}</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
-                        <a href="index.html#page-top"></a>
+                        <a href="{{ index_prefix }}#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="index.html#blog">Blog</a>
+                        <a class="page-scroll" href="{{ index_prefix }}#blog">Blog</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="index.html#events">Events</a>
+                        <a class="page-scroll" href="{{ index_prefix }}#events">Events</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="index.html#team">Team</a>
+                        <a class="page-scroll" href="{{ index_prefix }}#team">Team</a>
                     </li>
                 </ul>
             </div>
