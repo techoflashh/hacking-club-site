@@ -1,6 +1,8 @@
 # Hacking Club Site
 
-The portfolio site for the Hacking Club of IIITH
+The portfolio site for the Hacking Club of IIITH.
+
+Powered by Jekyll and adapted from the [Agency Jekyll theme](http://jekyllthemes.org/themes/agency/)
 
 ## Running the site
 

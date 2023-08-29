@@ -47,6 +47,13 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #   - vendor/gems/
 #   - vendor/ruby/
 
+exclude:
+  - TODO.md
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+
 
 # From template
 # Team names, titles and social links
