@@ -21,14 +21,11 @@
 title: "0x1337: The Hacking Club"
 email: hacking.club@students.iiit.ac.in
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  We are a club based on ethical hacking, where we try to familiarize people with
+  different tools and ways of ethical hacking and make them aware about how 
+  cybersecurity is so important in today's world.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
-github_username: 
-
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -128,11 +125,8 @@ social:
     url: https://www.youtube.com/channel/UCh8mysep91D52uOW47jN91A
   - title: instagram
     url: https://www.instagram.com/0x1337iiith/
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - title: discord
+    url: https://discord.gg/xhDnu6Rnfh
 
 # Build settings
 markdown: kramdown
