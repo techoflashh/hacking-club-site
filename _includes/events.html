@@ -20,14 +20,14 @@
           <li class="timeline-inverted">
           {% endif %}
             <div class="timeline-image">
-              <a href="#EventId{{ event.EventId }}" class="blog-link" data-toggle="modal">
+              <a href="#event_id{{ event.event_id }}" class="blog-link" data-toggle="modal">
                 <img class="img-circle img-responsive" src="img/events/{{ event.image }}" alt="" />
               </a>
             </div>
             <div class="timeline-panel">
-              <a href="#EventId{{ event.EventId }}" class="blog-link" data-toggle="modal">
+              <a href="#event_id{{ event.event_id }}" class="blog-link" data-toggle="modal">
                 <div class="timeline-heading">
-                  <h4>{{ event.EventDate }}</h4>
+                  <h4>{{ event.date_time }}</h4>
                   <h4 class="subheading">{{ event.title }}</h4>
                 </div>
               </a>

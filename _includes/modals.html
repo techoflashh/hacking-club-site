@@ -1,6 +1,6 @@
  <!-- Blog Modals -->
  {% for event in site.categories.events %}
-    <div class="blog-modal modal fade" id="EventId{{ event.EventId }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="blog-modal modal fade" id="event_id{{ event.event_id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -15,15 +15,9 @@
                             <h2>{{ event.title }}</h2>
                             <hr class="star-primary">
                             <img src="img/events/{{ event.image }}" class="img-responsive img-centered" alt="">
+                            <h4>{{ event.date_time }}</h4>
                             <p>{{ event.description }}</p>
-                            <ul class="list-inline item-details">
-                                <li>Event Date: {{ event.EventDate }}
-                                </li>
-                                <li>Resources:
-                                    <strong><a href="{{ event.resources }}"></a>
-                                    </strong>
-                                </li>
-                            </ul>
+                            <p>{{ event.content }}</p>
                         </div>
                     </div>
                 </div>

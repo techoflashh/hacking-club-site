@@ -275,7 +275,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: #{{ site.data.template.color.nav }};
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -425,7 +425,7 @@ section h3.section-subheading {
     padding: 25px;
     max-width: 400px;
     text-align: center;
-    background-color: #fff;
+    background-color: #{{ site.data.template.color.bg1 }};
 }
 
 #blog .blog-item .blog-caption h4 {
@@ -678,7 +678,7 @@ aside.clients img {
 footer {
     padding: 25px 0;
     text-align: center;
-    background-color: #{{ site.data.template.color.footer }};;
+    background-color: #{{ site.data.template.color.footer }};
 }
 
 footer span.copyright {
