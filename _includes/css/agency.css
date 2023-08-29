@@ -4,10 +4,22 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
  
+
+
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #{{ site.data.template.color.text1 }};
+}
+
+.post-layout {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.post-layout img{
+    width: 100%;
+    border: 5px solid #fff;
 }
 
 .logo{
@@ -645,7 +657,8 @@ section h3.section-subheading {
 
 .team-member img {
     margin: 0 auto;
-    border: 7px solid #fff;
+    border: 5px solid #fff;
+    width: 50%;
 }
 
 .team-member h4 {

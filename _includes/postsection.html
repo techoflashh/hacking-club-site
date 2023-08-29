@@ -1,0 +1,12 @@
+<section class="bg2">
+    <div class="container">
+        <article class="bg2">
+            <div class="post-layout">
+                <h2>{{ page.title }}</h2>
+                <p class="post-date">{{ page.date | date: "%B %-d, %Y" }}</p>
+                <img src="img/blog/{{ page.thumbnail }}" alt="{{ page.alt }}">
+                {{ page.description }}
+            </div>
+        </article>
+    </div>
+</section>
