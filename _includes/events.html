@@ -11,7 +11,7 @@
     </div>
     <div class="row">
       <div class="col-lg-12">
-        <ul class="timeline">
+        <ul class="timeline" id="timeline">
           {% for event in site.categories.events %}
           {% assign remainder = forloop.index | modulo: 2 %}
           {% if remainder == 1 %}
@@ -38,8 +38,8 @@
           </li>
           {% endfor %}
           <li class="timeline-inverted">
-            <div class="timeline-image">
-              <h4>Click to <br />view previous <br />events!</h4>
+            <div class="timeline-image" onclick="increment_timeline_display()">
+              Click to view more events!
             </div>
           </li>
         </ul>

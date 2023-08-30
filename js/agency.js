@@ -4,6 +4,11 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+const TIMELINE_DISPLAY_STEP = 3;
+var timeline_cur_display = 0;
+
+var timeline_entries = document.getElementById("timeline").getElementsByTagName("li");
+
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
@@ -35,3 +40,23 @@ $('div.modal').on('show.bs.modal', function() {
 		}
 	}
 });
+
+function increment_timeline_display() {
+    timeline_cur_display += TIMELINE_DISPLAY_STEP;
+    for (let i = 0; i < timeline_entries.length - 1; i++) {
+        if (i >= timeline_cur_display) {
+            timeline_entries[i].style.display = "none";
+        }
+        else {
+            timeline_entries[i].style.display = "block";
+        }
+    }
+
+    if (timeline_cur_display >= (timeline_entries.length - 1)) {
+        timeline_entries[timeline_entries.length - 1].innerHTML = `
+        <div class="timeline-image">The beginning of time</div>
+        `;
+    }
+}
+
+increment_timeline_display();
