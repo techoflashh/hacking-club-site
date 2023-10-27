@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   We are a club based on ethical hacking, where we try to familiarize people with
   different tools and ways of ethical hacking and make them aware about how 
   cybersecurity is so important in today's world.
-baseurl: "Ox1337" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Exclude from processing.
